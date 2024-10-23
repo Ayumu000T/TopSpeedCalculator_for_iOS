@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB9C6CF02CC8994500C78D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9C6CD72CC8994200C78D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9C6CDE2CC8994200C78D14;
+			remoteInfo = TopSpeedCalculator_for_iOS;
+		};
+		EB9C6CFA2CC8994500C78D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9C6CD72CC8994200C78D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9C6CDE2CC8994200C78D14;
+			remoteInfo = TopSpeedCalculator_for_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9C6CDF2CC8994200C78D14 /* TopSpeedCalculator_for_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSpeedCalculator_for_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9C6CEF2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSpeedCalculator_for_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9C6CF92CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSpeedCalculator_for_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB9C6CE12CC8994200C78D14 /* TopSpeedCalculator_for_iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopSpeedCalculator_for_iOS;
+			sourceTree = "<group>";
+		};
+		EB9C6CF22CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopSpeedCalculator_for_iOSTests;
+			sourceTree = "<group>";
+		};
+		EB9C6CFC2CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopSpeedCalculator_for_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9C6CDC2CC8994200C78D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CEC2CC8994500C78D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CF62CC8994500C78D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9C6CD62CC8994200C78D14 = {
+			isa = PBXGroup;
+			children = (
+				EB9C6CE12CC8994200C78D14 /* TopSpeedCalculator_for_iOS */,
+				EB9C6CF22CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */,
+				EB9C6CFC2CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */,
+				EB9C6CE02CC8994200C78D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9C6CE02CC8994200C78D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9C6CDF2CC8994200C78D14 /* TopSpeedCalculator_for_iOS.app */,
+				EB9C6CEF2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests.xctest */,
+				EB9C6CF92CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9C6CDE2CC8994200C78D14 /* TopSpeedCalculator_for_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9C6D032CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOS" */;
+			buildPhases = (
+				EB9C6CDB2CC8994200C78D14 /* Sources */,
+				EB9C6CDC2CC8994200C78D14 /* Frameworks */,
+				EB9C6CDD2CC8994200C78D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB9C6CE12CC8994200C78D14 /* TopSpeedCalculator_for_iOS */,
+			);
+			name = TopSpeedCalculator_for_iOS;
+			packageProductDependencies = (
+			);
+			productName = TopSpeedCalculator_for_iOS;
+			productReference = EB9C6CDF2CC8994200C78D14 /* TopSpeedCalculator_for_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9C6CEE2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9C6D062CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOSTests" */;
+			buildPhases = (
+				EB9C6CEB2CC8994500C78D14 /* Sources */,
+				EB9C6CEC2CC8994500C78D14 /* Frameworks */,
+				EB9C6CED2CC8994500C78D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9C6CF12CC8994500C78D14 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB9C6CF22CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */,
+			);
+			name = TopSpeedCalculator_for_iOSTests;
+			packageProductDependencies = (
+			);
+			productName = TopSpeedCalculator_for_iOSTests;
+			productReference = EB9C6CEF2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB9C6CF82CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9C6D092CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOSUITests" */;
+			buildPhases = (
+				EB9C6CF52CC8994500C78D14 /* Sources */,
+				EB9C6CF62CC8994500C78D14 /* Frameworks */,
+				EB9C6CF72CC8994500C78D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9C6CFB2CC8994500C78D14 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB9C6CFC2CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */,
+			);
+			name = TopSpeedCalculator_for_iOSUITests;
+			packageProductDependencies = (
+			);
+			productName = TopSpeedCalculator_for_iOSUITests;
+			productReference = EB9C6CF92CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9C6CD72CC8994200C78D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EB9C6CDE2CC8994200C78D14 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EB9C6CEE2CC8994500C78D14 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB9C6CDE2CC8994200C78D14;
+					};
+					EB9C6CF82CC8994500C78D14 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB9C6CDE2CC8994200C78D14;
+					};
+				};
+			};
+			buildConfigurationList = EB9C6CDA2CC8994200C78D14 /* Build configuration list for PBXProject "TopSpeedCalculator_for_iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9C6CD62CC8994200C78D14;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB9C6CE02CC8994200C78D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9C6CDE2CC8994200C78D14 /* TopSpeedCalculator_for_iOS */,
+				EB9C6CEE2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */,
+				EB9C6CF82CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9C6CDD2CC8994200C78D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CED2CC8994500C78D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CF72CC8994500C78D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9C6CDB2CC8994200C78D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CEB2CC8994500C78D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9C6CF52CC8994500C78D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9C6CF12CC8994500C78D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9C6CDE2CC8994200C78D14 /* TopSpeedCalculator_for_iOS */;
+			targetProxy = EB9C6CF02CC8994500C78D14 /* PBXContainerItemProxy */;
+		};
+		EB9C6CFB2CC8994500C78D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9C6CDE2CC8994200C78D14 /* TopSpeedCalculator_for_iOS */;
+			targetProxy = EB9C6CFA2CC8994500C78D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB9C6D012CC8994500C78D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9C6D022CC8994500C78D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9C6D042CC8994500C78D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TopSpeedCalculator_for_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB9C6D052CC8994500C78D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TopSpeedCalculator_for_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB9C6D072CC8994500C78D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopSpeedCalculator_for_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopSpeedCalculator_for_iOS";
+			};
+			name = Debug;
+		};
+		EB9C6D082CC8994500C78D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopSpeedCalculator_for_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopSpeedCalculator_for_iOS";
+			};
+			name = Release;
+		};
+		EB9C6D0A2CC8994500C78D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopSpeedCalculator_for_iOS;
+			};
+			name = Debug;
+		};
+		EB9C6D0B2CC8994500C78D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPL7DF923Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aym.TopSpeedCalculator-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopSpeedCalculator_for_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9C6CDA2CC8994200C78D14 /* Build configuration list for PBXProject "TopSpeedCalculator_for_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9C6D012CC8994500C78D14 /* Debug */,
+				EB9C6D022CC8994500C78D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9C6D032CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9C6D042CC8994500C78D14 /* Debug */,
+				EB9C6D052CC8994500C78D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9C6D062CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9C6D072CC8994500C78D14 /* Debug */,
+				EB9C6D082CC8994500C78D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9C6D092CC8994500C78D14 /* Build configuration list for PBXNativeTarget "TopSpeedCalculator_for_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9C6D0A2CC8994500C78D14 /* Debug */,
+				EB9C6D0B2CC8994500C78D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9C6CD72CC8994200C78D14 /* Project object */;
+}

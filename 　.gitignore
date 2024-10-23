@@ -1,0 +1,37 @@
+# Xcodeのビルドファイル
+build/
+DerivedData/
+*.xcuserstate
+
+# Xcodeプロジェクト関連
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdatad/
+*.xcscheme
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# ユーザ設定ファイル
+*.swp
+*.swo
+*.DS_Store
+*.hprof
+*.log
+
+# ドキュメント
+*.docset
+
+# シミュレーター関連
+*.app
+*.dSYM
+
+# カスタムファイル
+*.tmp
+*.tmp/
+

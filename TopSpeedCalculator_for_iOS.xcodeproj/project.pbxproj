@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB9C6D692CC9446800C78D14 /* 　.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EB9C6D682CC9445700C78D14 /* 　.gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EB9C6CF02CC8994500C78D14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EB9C6CDF2CC8994200C78D14 /* TopSpeedCalculator_for_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSpeedCalculator_for_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9C6CEF2CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSpeedCalculator_for_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9C6CF92CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSpeedCalculator_for_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9C6D682CC9445700C78D14 /* 　.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = "　.gitignore"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		EB9C6CD62CC8994200C78D14 = {
 			isa = PBXGroup;
 			children = (
+				EB9C6D682CC9445700C78D14 /* 　.gitignore */,
 				EB9C6CE12CC8994200C78D14 /* TopSpeedCalculator_for_iOS */,
 				EB9C6CF22CC8994500C78D14 /* TopSpeedCalculator_for_iOSTests */,
 				EB9C6CFC2CC8994500C78D14 /* TopSpeedCalculator_for_iOSUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9C6D692CC9446800C78D14 /* 　.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

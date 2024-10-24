@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CustomResultTable: View {
+struct ResultComponent: View {
     let gears = ["1速", "2速", "3速", "4速", "5速", "6速"]
     let rpmValues = ["-1000", "-500", "---?---", "+500", "+1000"]
     var resultNum: String
@@ -79,7 +79,7 @@ struct ResultView_PreViews: PreviewProvider {
                         .stroke(AppColors.borderColor, lineWidth: 5)
                 )
             VStack {
-                CustomResultTable(resultNum: "結果1")
+                ResultComponent(resultNum: "結果1")
 //                CustomResultTable(resultNum: "結果2")
             }
             

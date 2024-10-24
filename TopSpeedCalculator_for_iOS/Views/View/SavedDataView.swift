@@ -20,16 +20,24 @@ struct SavedDataView: View {
                 .listRowBackground(Color.gray.opacity(0.2))
             }
         }
-//        .listStyle(PlainListStyle())
         .scrollContentBackground(.hidden) // Listの背景色を無効化
         .background(Color.clear)
-        .frame(height: 100)
+        .frame(height: 90)
     }
 }
 
 struct SavedDataView_Previews: PreviewProvider {
     static var previews: some View {
-        
-        SavedDataView()
+        ZStack {
+            //　外枠
+            Rectangle()
+                .fill(AppColors.backgroundColor2)
+                .cornerRadius(12)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12)
+                        .stroke(AppColors.borderColor, lineWidth: 5)
+                )
+            SavedDataView()
+        }
     }
 }
